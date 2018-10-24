@@ -31,7 +31,7 @@ public class Knoten
             
             naechster = new Knoten(elem);
         }else{
-         einfuegen(elem);   
+         naechster.einfuegen(elem);   
             
     }
 }
