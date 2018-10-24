@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Controller
+comment1.params=
+comment1.target=void\ initialize()
+comment2.params=event
+comment2.target=void\ start(javafx.event.ActionEvent)
+comment3.params=
+comment3.target=void\ stop()
+comment4.params=
+comment4.target=void\ update()
+comment5.params=
+comment5.target=void\ zeichnen()
+comment6.params=ke
+comment6.target=void\ gedrueckt(javafx.scene.input.KeyEvent)
+numComments=7

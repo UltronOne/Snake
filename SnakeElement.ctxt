@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=SnakeElement
+comment1.params=x_\ y_
+comment1.target=SnakeElement(int,\ int)
+comment2.params=gc
+comment2.target=void\ zeichnen(javafx.scene.canvas.GraphicsContext)
+comment3.params=
+comment3.target=int\ getX()
+comment4.params=
+comment4.target=int\ getY()
+comment5.params=x_\ y_
+comment5.target=boolean\ trifft(int,\ int)
+numComments=6

@@ -17,14 +17,24 @@ public class Knoten
 
     public void zeichnen(GraphicsContext gc)
     {
-        // Hier ist etwas zu tun!
+        inhalt.zeichnen(gc);
+        if(naechster!=null){
+            naechster.zeichnen(gc);
+            
+            
+        }
     }
 
     public void einfuegen(SnakeElement elem)
     {
-        // Hier ist etwas zu tun!
+        if(naechster==null){
+            
+            naechster = new Knoten(elem);
+        }else{
+         einfuegen(elem);   
+            
     }
-
+}
     public boolean trifft(int x, int y)
     {
         if (inhalt.trifft(x,y))

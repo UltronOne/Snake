@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Snake
+comment1.params=
+comment1.target=void\ init()
+comment2.params=
+comment2.target=void\ bewegen()
+comment3.params=
+comment3.target=void\ essen()
+comment4.params=
+comment4.target=void\ sterben()
+comment5.params=richtung
+comment5.target=void\ setRichtung(java.lang.String)
+comment6.params=
+comment6.target=boolean\ trifftSich()
+comment7.params=
+comment7.target=int\ getKopfX()
+comment8.params=
+comment8.target=int\ getKopfY()
+comment9.params=gc
+comment9.target=void\ zeichnen(javafx.scene.canvas.GraphicsContext)
+numComments=10

@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Futter
+comment1.params=x_\ y_
+comment1.target=Futter(int,\ int)
+comment2.params=gc
+comment2.target=void\ zeichnen(javafx.scene.canvas.GraphicsContext)
+comment3.params=
+comment3.target=int\ getX()
+comment4.params=
+comment4.target=int\ getY()
+numComments=5

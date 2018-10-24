@@ -10,19 +10,28 @@ public class Liste
 
     public void einfuegen(SnakeElement elem)
     {
+        if(erster==null){
+         erster = new Knoten(elem);   
+            
+        }else{
+            
+         erster.einfuegen(elem);   
+        }
         
-        // Hier ist etwas zu tun
     }
 
     public void entnehmen()
     {
-        // Hier ist etwas zu tun
+        erster = erster.getNaechster();
 
     }
 
     public void zeichnen(GraphicsContext gc)
     {
-        // Hier ist etwas zu tun
+        if(erster !=null){
+            erster.zeichnen(gc);
+        }
+        
     }
 
     public void leeren()
